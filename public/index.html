@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>type of a triangle</title>
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="//d5wfroyti11sa.cloudfront.net/prod/client/ts-11.1.0.min.css"/>    
+        <script src="//d5wfroyti11sa.cloudfront.net/prod/client/ts-11.1.0.min.js"></script>
+        <script src="triangle.js"></script>
+	</head>
+	</head>
+	<body>
+		<header data-ts="TopBar"></header>
+		<main data-ts="Main">
+			<div data-ts="MainContent">
+				<form data-ts="Form">
+					<fieldset>
+						<label>
+							<span>Hypotenuse</span>
+							<input type="number" onkeypress="return event.charCode >= 48 " min="1" id="hypotenuse"/>
+						</label>
+						<label>
+							<span>Opposite</span>
+							<input type="number" onkeypress="return event.charCode >= 48 " min="1" id="opposite"/>
+						</label>
+						<label>
+							<span>Adjacent</span>
+							<input type="number" onkeypress="return event.charCode >= 48 " min="1" id="adjacent" />
+						</label>
+						<button data-ts="Button" class="ts-primary"  id="button">
+							<span>Submit</span>
+						</button>
+					</fieldset>
+				</form>
+			</div>
+		</main>
+	</body>
+	<script src="index.js"></script>
+</html>
